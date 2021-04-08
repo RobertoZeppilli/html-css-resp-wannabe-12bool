@@ -1,0 +1,124 @@
+/* COMMON */
+body {
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.text-container,
+.text-container p {
+    padding: 10px;
+}
+
+.row {
+    padding-top: 30px;
+}
+
+#steps,
+#why {
+    background-color: #cecece;
+}
+
+/* HEADER */
+
+/* LEZIONI */
+#title {
+    text-align: center;
+    line-height: 200px;
+}
+
+.lezioni-img {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+} 
+
+/* MAIN */
+
+/* STEPS */
+#steps {
+    margin: 80px 0;
+    padding: 20px;
+}
+
+.steps-img {
+    height: 200px;
+}
+
+/* WHY */
+#why {
+    padding-top: 20px;
+}
+
+#why img {
+    height: 200px;
+    width: 200px;
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+hr {
+    border-color: black;
+}
+
+/* MEDIA */
+
+/* MD */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    #why img {
+        height: 150px;
+        width: 150px;
+    }
+    .lezioni-img,
+    .steps-img {
+        height: 150px;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* XS */
+@media screen and (max-width: 767px) {
+
+    #why img {
+        height: 130px;
+        width: 130px;
+    }
+    .lezioni-img,
+    .steps-img {
+        height: 130px;
+    }
+
+    #steps {
+        background-color: white;
+    }
+    
+    #steps,
+    #why {
+        margin: 0;
+        padding: 10px;
+    }
+
+    #lezioni,
+    #why {
+        background-color: #f2f2cd;
+    }
+
+    #title {
+        line-height: 80px;
+    }
+    
+    p {
+        font-size: 17px;
+    }
+    h3 {
+        font-size: 23px;
+    }
+
+}    
